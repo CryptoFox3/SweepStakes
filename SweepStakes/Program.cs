@@ -6,6 +6,7 @@ namespace SweepStakes
     {
         static void Main(string[] args)
         {
+            ISweepstakesManager manager = new ISweepstakesManager();
             SweepStakes sweepStakes = new SweepStakes();
             sweepStakes.MainMenu();
         }
