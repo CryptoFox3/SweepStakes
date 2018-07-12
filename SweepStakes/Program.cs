@@ -6,7 +6,8 @@ namespace SweepStakes
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            SweepStakes sweepStakes = new SweepStakes();
+            sweepStakes.MainMenu();
         }
     }
 }
